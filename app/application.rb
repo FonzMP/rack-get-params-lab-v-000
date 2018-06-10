@@ -40,7 +40,7 @@ class Application
     end
   end
 
-  def add_item(search_term)
+  def add_search(search_term)
     if @@items.include?(search_term)
       @@cart << search_term
       return "Added #{search_term}"
