@@ -40,4 +40,8 @@ class Application
     end
   end
 
+  def add_item(search_term)
+
+  end
+
 end
