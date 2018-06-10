@@ -41,7 +41,9 @@ class Application
   end
 
   def add_item(search_term)
-
+    if @@items.include?(search_term)
+      @@cart << search_term
+      resp.write "Added #{search_term}"
   end
 
 end
